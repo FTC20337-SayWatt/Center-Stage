@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acmerobotics.roadrunner",
+    "module": "core",
+    "version": "0.5.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "froyuz6w4vf43ajegooylwxiia"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.5.6.jar",
+          "url": "core-0.5.6.jar",
+          "size": 233072,
+          "sha512": "26787169b0b04fbcd2f102087e5b9fadd3c8e20f17f972f569ace7f37bb9d2e035aaa3f346f9d7b836c7c500834d3396e8a5f9863b095f68651969fb58104cfd",
+          "sha256": "2566a85c7e99e08d803a3138951a3b7d9c605647e9a5972d0e179986c0f66fd7",
+          "sha1": "06cc85ed97a60f16ed7b2a0a98f9f887005a391c",
+          "md5": "e7f0feeb724237cc8518de0d3c18ef57"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.5.6.jar",
+          "url": "core-0.5.6.jar",
+          "size": 233072,
+          "sha512": "26787169b0b04fbcd2f102087e5b9fadd3c8e20f17f972f569ace7f37bb9d2e035aaa3f346f9d7b836c7c500834d3396e8a5f9863b095f68651969fb58104cfd",
+          "sha256": "2566a85c7e99e08d803a3138951a3b7d9c605647e9a5972d0e179986c0f66fd7",
+          "sha1": "06cc85ed97a60f16ed7b2a0a98f9f887005a391c",
+          "md5": "e7f0feeb724237cc8518de0d3c18ef57"
+        }
+      ]
+    }
+  ]
+}
